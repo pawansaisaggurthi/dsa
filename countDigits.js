@@ -18,11 +18,11 @@ So, total digits = 3
 
 function findDigits(n) {
 
-//want to handle nagitive numbers also then use Math.abs(n) so its convert to positive number
+    //want to handle nagitive numbers also then use Math.abs(n) so its convert to positive number
 
-if(n==0) return "1"
- 
-Math.abs(n)
+    if (n == 0) return "1"
+
+    Math.abs(n)
     let count = 0;
     while (n > 0) {
         n = Math.floor(n / 10);
